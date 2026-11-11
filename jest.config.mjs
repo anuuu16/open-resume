@@ -12,6 +12,8 @@ const config = {
   // setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
 
   testEnvironment: "jest-environment-jsdom",
+  // App code imports from src/app ("lib/...", "components/..."); packages come from node_modules.
+  moduleDirectories: ["node_modules", "<rootDir>/src/app"],
 };
 
 // createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async

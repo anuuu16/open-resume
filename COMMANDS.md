@@ -24,6 +24,8 @@ npm run build && npm start            # production build; another port: npm star
 
 ```
 npm test                              # Jest unit tests (jsdom; files named *.test.ts / *.test.tsx)
+                                      # app imports like "lib/redux/resumeSlice" work in tests; for code that uses
+                                      # structuredClone (lib/deep-merge.ts), start the file with /** @jest-environment node */
 npx jest <path>                       # one test file
 npm run test:watch                    # watch mode
 npm run lint                          # ESLint (next lint)
