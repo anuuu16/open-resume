@@ -116,9 +116,7 @@ export const ResumeParserAlgorithmArticle = ({
       <Heading level={2}>Step 1. Read the text items from a PDF file</Heading>
       <Paragraph smallMarginTop={true}>
         A PDF file is a standardized file format defined by the{" "}
-        <Link href="https://www.iso.org/standard/51502.html">
-          ISO 32000 specification
-        </Link>
+       
         . When you open up a PDF file using a text editor, you'll notice that
         the raw content looks encoded and is difficult to read. To display it in
         a readable format, you would need a PDF reader to decode and view the
@@ -129,7 +127,7 @@ export const ResumeParserAlgorithmArticle = ({
         While it is possible to write a custom PDF reader function following the
         ISO 32000 specification, it is much simpler to leverage an existing
         library. In this case, the resume parser uses Mozilla's open source{" "}
-        <Link href="https://github.com/mozilla/pdf.js">pdf.js</Link> library to
+        library to
         first extract all the text items in the file.
       </Paragraph>
       <Paragraph>
@@ -348,10 +346,7 @@ export const ResumeParserAlgorithmArticle = ({
       <Paragraph>
         And that is everything about the OpenResume parser algorithm :)
       </Paragraph>
-      <Paragraph>
-        Written by <Link href="https://github.com/xitanggg">Xitang</Link> on
-        June 2023
-      </Paragraph>
+      
     </article>
   );
 };

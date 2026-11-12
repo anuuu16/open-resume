@@ -73,7 +73,7 @@ const QAS = [
     answer: (
       <p>
         OpenResume was created by{" "}
-        <Link href="https://github.com/xitanggg">Xitang Zhao</Link> and designed
+        <Link href="https://github.com/anuuu16">Xitang Zhao</Link> and designed
         by <Link href="https://www.linkedin.com/in/imzhi">Zhigang Wen</Link> as
         a weekend project. As immigrants to the US, we had made many mistakes
         when creating our first resumes and applying for internships and jobs.
@@ -87,37 +87,6 @@ const QAS = [
         anyone to easily create a modern professional resume that follows best
         practices and enable anyone to apply for jobs with confidence.
       </p>
-    ),
-  },
-  {
-    question: "Q4. How can I support OpenResume?",
-    answer: (
-      <>
-        <p>
-          The best way to support OpenResume is to share your thoughts and
-          feedback with us to help further improve it. You can send us an email
-          at{" "}
-          <Link href="mailto:hello@open-resume.com">hello@open-resume.com</Link>{" "}
-          or{" "}
-          <Link href="https://github.com/xitanggg/open-resume/issues/new">
-            open an issue
-          </Link>{" "}
-          at our Github repository. Whether you like it or not, we would love to
-          hear from you.
-        </p>
-        <p>
-          Another great way to support OpenResume is by spreading the words.
-          Share it with your friends, on social media platforms, or with your
-          school’s career center. Our goal is to reach more people who struggle
-          with creating their resume, and your word-of-mouth support would be
-          greatly appreciated. If you use Github, you can also show your support
-          by{" "}
-          <Link href="https://github.com/xitanggg/open-resume">
-            giving the project a star
-          </Link>{" "}
-          to help increase its popularity and reach.
-        </p>
-      </>
     ),
   },
 ];
